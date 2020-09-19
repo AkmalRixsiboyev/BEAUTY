@@ -1,0 +1,101 @@
+
+*{
+    box-sizing:border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    
+}
+li{
+    list-style: none;
+}
+.conterner{
+    max-width: 1110px;
+    margin: 0 auto; 
+    padding-left: 15px;
+    padding-right: 15px;
+   
+}
+.header_top {
+    background: #E5E5E5;
+    padding: 15px; 
+}
+.header_top ul {
+    display: flex;
+    justify-content: center;
+
+   
+}
+.header_top ul a{
+    color: #333333;
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.logo{
+   
+}
+.logo img {
+    padding: 20px 20px 20px 0;
+}
+.ButtonText {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.logo a {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    color: #66C05D;
+}
+.nomer{
+    font-size: 16px;
+    line-height: 19px;
+    
+}
+.qayta_aloqa a {
+    margin-left: 40px ;
+    padding: 12px 27px;
+    border: 2px solid #66C05D;
+    border-radius: 30px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.header_bottom {
+    border-bottom: 2px solid #EFEFEF;
+}
+.nav {
+    justify-content: center;
+    margin: 30px 0;
+}
+.nav a {
+    padding: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+.baner {
+    height:604px;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    
+    
+    
+}
